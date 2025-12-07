@@ -1,0 +1,51 @@
+# === Archivos de entorno ===
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# === Dependencias ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === Archivos del sistema ===
+.DS_Store
+Thumbs.db
+
+# === Build / Producción ===
+dist/
+build/
+.cache/
+.temp/
+coverage/
+
+# === Archivos de configuración de editores ===
+.vscode/
+.idea/
+*.swp
+
+# === Logs ===
+logs/
+*.log
+*.log.*
+
+# === Archivos de lock ===
+package-lock.json
+yarn.lock
+
+# === Archivos temporales ===
+*.tmp
+*.bak
+*.pid
+*.seed
+*.pid.lock
+
+# === Test / Coverage ===
+coverage/
+.nyc_output/
+
+# === Otros ===
+*.tgz

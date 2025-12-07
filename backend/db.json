@@ -1,0 +1,147 @@
+{
+  "generos": [
+    {
+      "id": 1,
+      "nombre": "Acción",
+      "estado": "Activo",
+      "fecha_creacion": "2025-09-03T10:30:00Z",
+      "fecha_actualizacion": "2025-09-03T10:30:00Z",
+      "descripcion": "Películas con escenas de combate, persecuciones y aventuras intensas."
+    },
+    {
+      "id": 2,
+      "nombre": "Comedia",
+      "estado": "Activo",
+      "fecha_creacion": "2025-09-03T11:00:00Z",
+      "fecha_actualizacion": "2025-09-03T11:00:00Z",
+      "descripcion": "Películas que buscan generar humor y entretenimiento."
+    },
+    {
+      "id": 3,
+      "nombre": "Drama",
+      "estado": "Inactivo",
+      "fecha_creacion": "2025-08-20T15:45:00Z",
+      "fecha_actualizacion": "2025-09-01T09:10:00Z",
+      "descripcion": "Historias con fuerte carga emocional y conflictos humanos."
+    }
+  ],
+  "directores": [
+    {
+      "id": 1,
+      "nombres": "Steven Spielberg",
+      "estado": "Activo",
+      "fecha_creacion": "2025-09-03T12:00:00Z",
+      "fecha_actualizacion": "2025-09-03T12:00:00Z"
+    },
+    {
+      "id": 2,
+      "nombres": "Christopher Nolan",
+      "estado": "Activo",
+      "fecha_creacion": "2025-09-03T12:15:00Z",
+      "fecha_actualizacion": "2025-09-03T12:15:00Z"
+    },
+    {
+      "id": 3,
+      "nombres": "Quentin Tarantino",
+      "estado": "Inactivo",
+      "fecha_creacion": "2025-08-28T09:30:00Z",
+      "fecha_actualizacion": "2025-09-01T14:20:00Z"
+    }
+  ],
+  "productoras": [
+    {
+      "id": 1,
+      "nombre_productora": "Warner Bros Pictures",
+      "estado": "Activo",
+      "fecha_creacion": "2025-09-03T12:30:00Z",
+      "fecha_actualizacion": "2025-09-03T12:30:00Z",
+      "slogan": "Entertainment for Everyone",
+      "descripcion": "Productora estadounidense de cine y televisión, una de las más grandes de Hollywood."
+    },
+    {
+      "id": 2,
+      "nombre_productora": "Universal Pictures",
+      "estado": "Activo",
+      "fecha_creacion": "2025-09-03T12:45:00Z",
+      "fecha_actualizacion": "2025-09-03T12:45:00Z",
+      "slogan": "The Entertainment Capital of the World",
+      "descripcion": "Estudio cinematográfico con sede en California, reconocido mundialmente por sus producciones."
+    },
+    {
+      "id": 3,
+      "nombre_productora": "Studio Ghibli",
+      "estado": "Inactivo",
+      "fecha_creacion": "2025-08-15T09:00:00Z",
+      "fecha_actualizacion": "2025-08-30T18:20:00Z",
+      "slogan": "Let’s Get Lost Together",
+      "descripcion": "Estudio japonés de animación, famoso por películas como El Viaje de Chihiro y Mi Vecino Totoro."
+    }
+  ],
+  "tipos": [
+    {
+      "id": 1,
+      "nombre": "Película",
+      "fecha_creacion": "2025-09-03T13:00:00Z",
+      "fecha_actualizacion": "2025-09-03T13:00:00Z",
+      "descripcion": "Producción audiovisual de larga duración destinada a cine o plataformas."
+    },
+    {
+      "id": 2,
+      "nombre": "Serie",
+      "fecha_creacion": "2025-09-03T13:10:00Z",
+      "fecha_actualizacion": "2025-09-03T13:10:00Z",
+      "descripcion": "Producción dividida en episodios, transmitida por televisión o plataformas digitales."
+    },
+    {
+      "id": 3,
+      "nombre": "Documental",
+      "fecha_creacion": "2025-08-25T09:20:00Z",
+      "fecha_actualizacion": "2025-08-30T16:45:00Z",
+      "descripcion": "Obra audiovisual que retrata hechos reales, culturales, históricos o sociales."
+    }
+  ],
+  "media": [
+    {
+      "serial": "MOV-0001",
+      "titulo": "Inception",
+      "sinopsis": "Un ladrón que roba secretos corporativos a través de sueños debe cumplir la misión más difícil de su vida: implantar una idea en la mente de alguien.",
+      "url": "https://example.com/movies/inception",
+      "imagen_portada": "https://example.com/images/inception.jpg",
+      "fecha_creacion": "2025-09-03T14:00:00Z",
+      "fecha_actualizacion": "2025-09-03T14:00:00Z",
+      "anio_estreno": 2010,
+      "id_genero": 1,
+      "id_director": 2,
+      "id_productora": 1,
+      "id_tipo": 1
+    },
+    {
+      "serial": "SER-0001",
+      "titulo": "Stranger Things",
+      "sinopsis": "Un grupo de niños en un pequeño pueblo enfrenta fenómenos paranormales mientras buscan a un amigo desaparecido.",
+      "url": "https://example.com/series/stranger-things",
+      "imagen_portada": "https://example.com/images/stranger-things.jpg",
+      "fecha_creacion": "2025-09-03T14:30:00Z",
+      "fecha_actualizacion": "2025-09-03T14:30:00Z",
+      "anio_estreno": 2016,
+      "id_genero": 2,
+      "id_director": 3,
+      "id_productora": 2,
+      "id_tipo": 2
+    },
+    {
+      "serial": "DOC-0001",
+      "titulo": "Our Planet",
+      "sinopsis": "Serie documental que explora la belleza natural del planeta y los desafíos que enfrenta la vida silvestre.",
+      "url": "https://example.com/documentals/our-planet",
+      "imagen_portada": "https://example.com/images/our-planet.jpg",
+      "fecha_creacion": "2025-08-25T10:15:00Z",
+      "fecha_actualizacion": "2025-08-30T16:00:00Z",
+      "anio_estreno": 2019,
+      "id_genero": 3,
+      "id_director": 1,
+      "id_productora": 3,
+      "id_tipo": 3
+    }
+  ]
+}
